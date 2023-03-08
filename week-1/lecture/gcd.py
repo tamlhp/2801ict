@@ -4,6 +4,6 @@ def gcd(a, b):
     else:
         return gcd(b, a % b)
 
-a = 84
-b = 18
+a = 60
+b = 24
 print(gcd(a, b))  # Output: 6
