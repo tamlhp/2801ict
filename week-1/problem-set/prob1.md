@@ -4,7 +4,7 @@ If the first number (call it "m") is smaller than the second number (call it "n"
 2. Divide n by m and assign the value of the remainder to r
 3. Assign the value of m to n and the value of r to m. Go to Step 1.
 
-The largest number of times this can happen during the algorithm's execution on such an input is equal to the number of times the remainder is not zero. Let's denote the first number as m and the second number as n. If we repeatedly apply step 1 of the algorithm, we get:
+The largest number of times this can happen during the algorithm's execution on such an input is equal to the number of times the remainder is not zero. Let's denote the first number as m and the second number as n. If we repeatedly apply step 2 of the algorithm, we get:
 
 ```
 n = m*q + r1
